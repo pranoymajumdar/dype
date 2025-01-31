@@ -17,7 +17,6 @@ export default function FooterSection() {
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
               <div className="flex items-center gap-2">
                 <Logo />
-                <h3 className="text-xl font-bold">Dype</h3>
               </div>
             </FooterColumn>
             <FooterColumn>

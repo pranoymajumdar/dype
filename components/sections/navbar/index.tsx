@@ -17,15 +17,9 @@ export default function Navbar() {
       <div className="relative mx-auto max-w-container">
         <NavbarComponent>
           <NavbarLeft>
-            <Link
-              href="/"
-              className="flex items-center gap-2 text-xl font-bold"
-            >
-              <Logo />
-              Dype
-            </Link>
-            <Navigation />
+            <Logo />
           </NavbarLeft>
+          <Navigation />
           <NavbarRight>
             <Link href="/" className="hidden text-sm md:block">
               Sign in
