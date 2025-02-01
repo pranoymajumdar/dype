@@ -1,5 +1,4 @@
 import Hero from '@/components/sections/hero';
-import { BentoGrid } from '@/components/sections/bento-grid';
 import WhyUsSection from '@/components/sections/whyus';
 import OurServices from '@/components/sections/our-services';
 import OurAchievements from '@/components/sections/our-achievements';
@@ -10,7 +9,6 @@ export default function Home() {
   return (
     <>
       <Hero/>
-      <BentoGrid/>
       <WhyUsSection/>
       <OurServices/>
       <OurAchievements/>

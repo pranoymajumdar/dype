@@ -3,10 +3,10 @@ export const navLinks = [
       label: 'Home', href: '/'
     },
     {
-      label: 'Services', href: '/services'
+      label: 'Services', href: '#services'
     },
     {
-      label: 'Projects', href: '/projects'
+      label: 'Projects', href: '#projects'
     },
     {
       label: 'Why us', href: '/why-us'

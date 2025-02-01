@@ -13,15 +13,19 @@ export default function OurServices() {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
 
   return (
-    <AnimatedSection>
+    <AnimatedSection
+
+    >
       <SectionHeader
         title="Our"
         highlightedText=" Services"
         description="We offer comprehensive digital solutions to help your business thrive in the modern world"
+        id="services"
+
       />
 
       {/* Services Grid */}
-      <motion.div 
+      <motion.div
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -38,7 +42,7 @@ export default function OurServices() {
             <div className="relative h-full p-8 rounded-2xl bg-background/60 backdrop-blur-sm border border-primary/10 overflow-hidden">
               {/* Background gradient */}
               <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-              
+
               {/* Content */}
               <div className="relative z-10">
                 <div className="mb-8 relative inline-flex">

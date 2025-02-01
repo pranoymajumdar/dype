@@ -66,7 +66,7 @@ export default function Testimonials() {
           </div>
 
           {/* Testimonials Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8" >
             {testimonials.map((testimonial, index) => (
               <motion.div
                 key={testimonial.name}
@@ -111,7 +111,7 @@ export default function Testimonials() {
         </motion.div>
 
         {/* Background Elements */}
-        <div className="absolute inset-0 -z-10">
+        <div className="absolute inset-0 -z-10" id="projects">
           <div className="absolute left-1/4 top-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse" />
           <div className="absolute right-1/4 bottom-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse delay-1000" />
         </div>

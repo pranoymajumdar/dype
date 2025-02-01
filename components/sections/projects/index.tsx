@@ -18,12 +18,13 @@ export default function Projects() {
 ;
 
   return (
-    <section className="py-24 bg-background/50 relative overflow-hidden">
+    <section className="py-24 bg-background/50 relative overflow-hidden " >
       <Container>
         <motion.div
           ref={containerRef}
           style={{ opacity, scale }}
           className="relative z-10"
+         
         >
           {/* Header */}
           <div className="max-w-2xl mb-20">
@@ -31,6 +32,7 @@ export default function Projects() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
+           
             >
               <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
                 Featured
